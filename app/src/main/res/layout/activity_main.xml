@@ -11,31 +11,29 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/dark_green"
         android:elevation="4dp"
-        app:theme="@style/myTheme"
-        app:popupTheme="@style/CustomPopupTheme" />
+        app:popupTheme="@style/CustomPopupTheme"
+        app:theme="@style/myTheme" />
 
-    <!--<Button-->
-        <!--android:id="@+id/button2"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_marginBottom="16dp"-->
-        <!--android:layout_marginStart="37dp"-->
-        <!--android:onClick="playSound"-->
-        <!--android:text="alarm1" />-->
-
-    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    <android.support.v4.view.ViewPager
         android:id="@+id/slidePager"
         android:layout_width="match_parent"
-        android:layout_height="472dp"
+        android:layout_height="629dp"
+        android:layout_above="@+id/mDotLayout-
+        android:layout_below="@+id/my_toolbar"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/my_toolbar" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp" />
 
     <LinearLayout
         android:id="@+id/mDotLayout"
@@ -45,28 +43,6 @@
         android:layout_alignParentStart="true"
         android:gravity="center"
         android:orientation="horizontal">
-
     </LinearLayout>
-
-
-    <!--<Button-->
-        <!--android:id="@+id/button"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_alignTop="@+id/button2"-->
-        <!--android:layout_marginStart="137dp"-->
-        <!--android:onClick="playSound2"-->
-        <!--android:text="alarm2" />-->
-
-    <!--<Button-->
-        <!--android:id="@+id/button3"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:layout_alignTop="@+id/button"-->
-        <!--android:layout_marginEnd="22dp"-->
-        <!--android:onClick="enter"-->
-        <!--android:text="gridActivity" />-->
 
 </RelativeLayout>
